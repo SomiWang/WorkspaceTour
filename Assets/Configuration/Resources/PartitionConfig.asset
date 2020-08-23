@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78da547244eb9ff4eb3dd78c5cfad37d, type: 3}
+  m_Name: PartitionConfig
+  m_EditorClassIdentifier: 
+  m_PartitionInfos:
+  - Name: William.H
+  - Name: James.C
+  - Name: Harper
+  - Name: Mason
+  - Name: Madison
+  - Name: Scarlett
+  - Name: Wyatt.T
+  - Name: Lily.Cou
+  - Name: Eleanor
+  - Name: Addison
+  - Name: Julian
+  - Name: Lillian
+  - Name: Lucy
+  - Name: Everly
+  - Name: Christian
+  - Name: Hazel
+  - Name: Ellie.W
+  - Name: Robert.C
+  - Name: Harry
+  - Name: Ricky.Lin
+  - Name: Peter
+  - Name: Barry
+  - Name: Cooper.Liu
+  - Name: Evelyn
+  - Name: Austin
+  - Name: Meggy.Lin
+  - Name: Parker
+  - Name: Ella
+  - Name: Smith.Chang
+  - Name: Eloise
+  - Name: Rhett
+  - Name: Edward.C
+  - Name: Kimberly
+  - Name: Somi.Wang
+  - Name: Wilson.W
+  - Name: Frank.Chen
