@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Workspace.Client.UI
 {
@@ -35,9 +33,9 @@ namespace Workspace.Client.UI
                     var part = (UIPartition)m_AnchorRoot.Anchors[i].UI;
                     var follower = m_AnchorRoot.Anchors[i].UI.GetComponent<UIFollower>();
                     if (follower) follower.OriginPos = m_AnchorRoot.Anchors[i].OriginPos;
-                    if (PartitionConfiguration.Instance.PartitionInfos.Length > i)
+                    if (PartitionConfiguration.instance.PartitionInfos.Length > i)
                     {
-                        var _info = PartitionConfiguration.Instance.PartitionInfos[i];
+                        var _info = PartitionConfiguration.instance.PartitionInfos[i];
                         part.SetPartitionInfo(_info);
                     }
                 }
@@ -48,7 +46,7 @@ namespace Workspace.Client.UI
         {
             if (m_PartitionPrefab == null) return;
             var _partition = Instantiate(m_PartitionPrefab, anchor) as UIPartition;
-            var _info = PartitionConfiguration.Instance.PartitionInfos[index];
+            var _info = PartitionConfiguration.instance.PartitionInfos[index];
             if (_info != null) _partition.SetPartitionInfo(_info);
         }
     }
