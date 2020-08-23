@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/ObbExtractor.unity
     guid: b59f1af720584ed459704e9d2a4fe1fa
   - enabled: 1
-    path: Assets/Scenes/TestOffice.unity
+    path: Assets/Scenes/WorkSpaceTour.unity
     guid: 977d041353728be449b74c234959bcb3
   m_configObjects: {}

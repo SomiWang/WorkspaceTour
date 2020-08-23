@@ -30160,7 +30160,7 @@ GameObject:
   - component: {fileID: 1331042084}
   - component: {fileID: 1331042088}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: OverlayCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
