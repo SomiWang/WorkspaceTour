@@ -1,10 +1,22 @@
 ﻿using System;
-using UnityEditor;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "Workspace/Config/PartitionConfig")]
-public class PartitionConfiguration : ScriptableSingleton<PartitionConfiguration>
+public class PartitionConfiguration : ScriptableObject
 {
+    private const string path = "PartitionConfig";
+    private static PartitionConfiguration _instance;
+    public static PartitionConfiguration instance
+    {
+        get
+        {
+            if (_instance == null)
+                _instance = Resources.Load(path) as PartitionConfiguration;
+
+            return _instance;
+        }
+    }
+
     [SerializeField]
     private PartitionInfo[] m_PartitionInfos;
     public PartitionInfo[] PartitionInfos { get { return m_PartitionInfos; } }
